@@ -1,0 +1,10 @@
+name = "tic-tac-toe-lean"
+version = "0.1.0"
+defaultTargets = ["tic-tac-toe-lean"]
+
+[[lean_lib]]
+name = "TicTacToeLean"
+
+[[lean_exe]]
+name = "tic-tac-toe-lean"
+root = "Main"
